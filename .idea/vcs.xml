@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pig_Api/(version1)Pig_Api(Authentication) use now" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pig_Api/(version2)Pig_Api(Authentication) add farm +jsonwebtoken" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pig_Api/(version2)Pig_Api(Authentication) add farm +jsonwebtoken - no sex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pig_Api/Pig_Api(Authentication+jsonwebtoken)" vcs="Git" />
+  </component>
+</project>

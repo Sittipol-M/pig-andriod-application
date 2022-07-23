@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Application.VaccineMenu.VaccinationEach.VaccinationEachActivity">
+
+
+  <TextView
+      android:id="@+id/Title_TextView_VaccinationEachActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="16dp"
+      android:fontFamily="@font/baibold"
+      android:text="@string/NewVaccinationTitle_TextView"
+      android:textColor="#000000"
+      android:textSize="30sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <LinearLayout
+      android:id="@+id/TagCode_VaccinationEachActivity"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="16dp"
+      android:orientation="horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Title_TextView_VaccinationEachActivity">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:fontFamily="@font/baibold"
+        android:text="@string/TagCode_TextView"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+      <TextView
+          style="@android:style/Widget.EditText"
+          android:background="@null"
+          android:id="@+id/ShowTagCode_TextView_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.4"
+          android:layout_marginStart="10dp"
+          android:autoSizeTextType="none"
+          android:ems="10"
+          android:layout_marginLeft="10dp"
+          android:hint="@string/TagCodeHint_TextView"
+          android:textAlignment="textStart"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/ScanRfid_Button_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/Scan_Button"
+          android:textSize="14sp" />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:id="@+id/RfidCode_VaccinationEachActivity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="16dp"
+      android:orientation="horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/TagCode_VaccinationEachActivity">
+
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/Rfid_TextView"
+          android:textAlignment="textEnd"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <TextView
+          style="@android:style/Widget.EditText"
+          android:background="@null"
+          android:id="@+id/ShowRfid_TextView_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_weight="0.7"
+          android:autoSizeTextType="none"
+          android:ems="10"
+          android:fontFamily="@font/bai"
+          android:hint="@string/RfidHint_TextView"
+          android:textAlignment="textStart"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/VaccineLot_VaccinationEachActivity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="16dp"
+      android:orientation="horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/RfidCode_VaccinationEachActivity">
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/VaccineLot_TextView"
+          android:textAlignment="textEnd"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <TextView
+          style="@android:style/Widget.EditText"
+          android:background="@null"
+          android:id="@+id/ShowVaccineLot_TextView_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_weight="0.4"
+          android:autoSizeTextType="none"
+          android:ems="10"
+          android:hint="@string/VaccineLotHint_TextView"
+          android:textAlignment="textStart"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/ScanVaccineLotCodeQrcode_Button_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/Scan_Button"
+          android:textSize="14sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/VaccinationDate_VaccinationEachActivity"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="16dp"
+      android:orientation="horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/VaccineLot_VaccinationEachActivity">
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/VaccinationDate_TextView"
+          android:textAlignment="textEnd"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <TextView
+          android:id="@+id/ShowVaccinationDate_TextView_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.4"
+          android:autoSizeTextType="none"
+          android:ems="10"
+          android:layout_marginLeft="10dp"
+          android:textAlignment="textStart"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/SetDate_Button_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/DateButton_TextView"
+          android:textSize="14sp" />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/VaccinationTime_VaccinationEachActivity"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:layout_marginEnd="16dp"
+      android:orientation="horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/VaccinationDate_VaccinationEachActivity">
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/VaccinationTime_TextView"
+          android:textAlignment="textEnd"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <TextView
+          android:id="@+id/ShowVaccinationTime_TextView_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.4"
+          android:autoSizeTextType="none"
+          android:ems="10"
+          android:layout_marginLeft="10dp"
+          android:textAlignment="textStart"
+          android:textColor="@color/black"
+          android:textSize="15sp" />
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/SetTime_Button_VaccinationEachActivity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.3"
+          android:fontFamily="@font/baibold"
+          android:text="@string/TimeButton_TextView"
+          android:textSize="14sp" />
+
+  </LinearLayout>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/Submit_Button_VaccinationEachActivity"
+      android:layout_width="300dp"
+      android:layout_height="40dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginEnd="32dp"
+      android:layout_marginBottom="24dp"
+      android:background="#85C1E9"
+      android:fontFamily="@font/baibold"
+      android:text="@string/SubmitForUpdate_Button"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.489"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/VaccinationTime_VaccinationEachActivity"
+      app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

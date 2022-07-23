@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/orm_s/Desktop/pig project/app/src/main/res/drawable/ic_female_pig.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/app/src/main/res/layout/activity_farm_selection.xml" value="0.3359375" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/app/src/main/res/layout/activity_login.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/app/src/main/res/layout/activity_menu.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_detail_pig.xml" value="0.25" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_detail_pig_scan_rfid.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_farm_selection.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_add_breed.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_add_breed_scan_company_user_qrcode.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_add_breed_scan_sperm_qrcode.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_born_show_detail.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_detail.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_detail_scan_rfid.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_no_status.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_no_status_show_detail.xml" value="0.25" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_not_success_show_detail.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_set_success.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_success_show_detail.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_breed_update_wean_date.xml" value="0.271286231884058" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_menu.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_no_born_show_detail.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_female_scan_rfid.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_login.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_male_add_sperm.xml" value="0.25" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_male_add_sperm_scan_company_user_qrcode.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_male_menu.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_male_sperm_detail.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_male_sperm_detail_scan_rfid.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_male_sperm_show_detail.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_pair_block_and_unit_scan_qrcode.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_pair_block_and_unit_update_block_and_unit.xml" value="0.26766304347826086" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_pair_rfid.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_pait_rfid.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_rfid_menu.xml" value="0.4" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_setting.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_update_block_and_unit_name.xml" value="0.25" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_user.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccina_each.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_detail.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_detail_scan_rfid.xml" value="0.25" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_detail_show_detail.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_each.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_each_scan_qr_code_vaccine.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_menu.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_show_detail.xml" value="0.21829710144927536" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_unit.xml" value="0.33" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_unit_scan_qr_code_unit.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccination_unit_scan_qrcode_vaccine.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccine_each.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccine_each_scan_qr_code_vaccine.xml" value="0.67" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccine_each_scan_qr_code_vaccine_main.xml" value="0.1" />
+        <entry key="..\:/Users/orm_s/Desktop/pig project/pig_application2/app/src/main/res/layout/activity_vaccine_menu.xml" value="0.16271442986881937" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

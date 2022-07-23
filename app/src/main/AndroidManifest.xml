@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pig_application2">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_animal_pig_115308"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_animal_pig_115308"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pig_Application2">
+        <activity
+            android:name=".Application.MaleMenuActivity.AddSperm.MaleAddSpermScanCompanyUserQrcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.MaleMenuActivity.SpermDetail.MaleSpermShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.MaleMenuActivity.SpermDetail.MaleSpermDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.MaleMenuActivity.SpermDetail.MaleSpermDetailScanRfidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.MaleMenuActivity.AddSperm.MaleAddSpermActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.MaleMenuActivity.MaleMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedSetSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedUpdateWeanDateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedNoStatusShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.AddBreed.FemaleAddBreedScanSpermQrcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.AddBreed.FemaleAddBreedScanCompanyUserQrcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.AddBreed.FemaleAddBreedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedSuccessShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedNotSuccessShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.BreedDetail.FemaleBreedDetailScanRfidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FemaleMenuActivity.FemaleMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationDetail.VaccinationDetailShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationDetail.VaccinationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationDetail.VaccinationDetailScanRfidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationUnit.VaccinationUnitScanQrcodeVaccineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationUnit.VaccinationUnitScanQrCodeUnitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationUnit.VaccinationUnitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationEach.VaccinationEachScanQrCodeVaccineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccinationEach.VaccinationEachActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.VaccineMenu.VaccineMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.RfidMenu.DetailPig.DetailPigScanRfidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.RfidMenu.DetailPig.DetailPigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.RfidMenu.PairBlockAndUnit.PairBlockAndUnitUpdateBlockAndUnit"
+            android:exported="false" />
+        <activity
+            android:name=".Application.RfidMenu.PairBlockAndUnit.PairBlockAndUnitScanQrcodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.RfidMenu.PairRfid.PairRfidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.RfidMenu.RfidMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.SettingActivity.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.FarmSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.UserActivity.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Application.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
